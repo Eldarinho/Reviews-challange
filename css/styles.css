@@ -1,0 +1,275 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+
+}
+
+
+.smith {
+    background-color: hsl(300, 43%, 22%);
+    height: 250px;
+    width: 350px;
+    border-radius: 3%;
+    position: absolute;
+    left: 150px;
+    top: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.smith {
+    position: relative;
+}
+
+.roberts {
+    background-color: hsl(300, 43%, 22%);
+    height: 250px;
+    width: 350px;
+    border-radius: 3%;
+    position: absolute;
+    left: 530px;
+    top: 430px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.wallace {
+    background-color: hsl(300, 43%, 22%);
+    height: 250px;
+    width: 350px;
+    border-radius: 3%;
+    position: absolute;
+    left: 910px;
+    top: 460px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.h1 {
+    font-weight: 900;
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    left:150px;
+    top: 70px;
+    font-size: 25px;
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(300, 43%, 22%);
+    
+}
+
+.p {
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    left:150px;
+    top: 270px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    color: hsl(303, 10%, 53%);
+}
+
+.rate1 {
+    width: 400px;
+    height: 50px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 4%;
+    position: absolute;
+    left: 865px;
+    top: 300px;
+    display: flex;
+}
+
+.rate2 {
+    width: 400px;
+    height: 50px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5%;
+    position: absolute;
+    left: 805px;
+    top: 230px;
+}
+
+.rate3 {
+    width: 400px;
+    height: 50px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5%;
+    position: absolute;
+    left: 745px;
+    top: 160px;
+}
+
+.smith-img{
+    border-radius: 50%;
+    width: 70px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.smithh2 {
+    float: right;
+    position: absolute;
+    left: 120px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+
+}
+.smithh3 {
+    float: right;
+    position: absolute;
+    top: 40px;
+    left: 120px ;
+    color: hsl(333, 80%, 67%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.smithp {
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+.robertsh2 {
+    float: right;
+    position: absolute;
+    left: 120px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+
+}
+.robertsh3 {
+    float: right;
+    position: absolute;
+    top: 40px;
+    left: 120px ;
+    color: hsl(333, 80%, 67%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.roberts-img {
+    border-radius: 50%;
+    width: 70px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.robertsp {
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+.wallaceh2 {
+    float: right;
+    position: absolute;
+    left: 120px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+}
+.wallaceh3 {
+    float: right;
+    position: absolute;
+    top: 40px;
+    left: 120px ;
+    color: hsl(333, 80%, 67%);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.wallace-img {
+    border-radius: 50%;
+    width: 70px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.wallacep {
+    color: hsl(0, 0%, 100%);
+    font-family: 'League Spartan', sans-serif;
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    margin-right: 20px;
+    line-height: 1.5;
+}
+
+.besttech {
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    display: inline-block;
+    margin-left: 140px;
+    position: absolute;
+    bottom: -6px;
+    right: 40px;
+    
+}
+
+.star1 {
+    height: 10px;
+    width: 15px;
+    padding-left: 30px;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+
+.guru {
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    display: inline-block;
+    position: absolute;
+    bottom: -6px;
+    right: 60px;
+    
+}
+
+.star2 {
+    height: 10px;
+    width: 15px;
+    padding-left: 30px;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    
+}
+
+
+.Reviews {
+    color: hsl(300, 43%, 22%);
+    font-family: 'League Spartan', sans-serif;
+    display: inline-block;
+    position: absolute;
+    bottom: -6px;
+    right: 45px;
+    font-weight: 700;
+    
+}
+
+.star3 {
+    height: 10px;
+    width: 15px;
+    padding-left: 30px;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    
+}
